@@ -1,3 +1,6 @@
+import '../Assets/Css/Header.css';
+
+
 function Header() {
 
     return (
