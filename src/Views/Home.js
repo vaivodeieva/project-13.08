@@ -2,7 +2,7 @@ import'../Assets/Css/Home.css';
 
 function Home() {
     return (
-        <div>
+        <div className="container-home">
 
                 <h1 className="myName text-center">
                 IEVA VAIVODE

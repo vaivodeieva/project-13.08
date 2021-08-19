@@ -1,4 +1,11 @@
+
 .myName {
     font-size: 110px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-home {
+    background-image: url('../Images/mac.jpg');
+    position: relative;
+    height: 100vh;
 }
