@@ -10,3 +10,8 @@
     height: 900px;
     background-repeat: no-repeat;
 }
+
+.btn-home {
+    background-color: teal;
+    border-radius: 10px;
+}
