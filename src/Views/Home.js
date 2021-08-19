@@ -15,9 +15,12 @@ function Home() {
                     I'm a web developer with an art &amp; translations background. 
                     Now I translate ideas into the code to create artworks of code.
                 </p>
-                <p className="text-center">
+                <button>
+                    <p className="text-center">
                     GET INSPIRED
-                </p>
+                    </p>
+                    
+                </button>
            
             
 
