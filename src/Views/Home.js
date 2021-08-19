@@ -8,15 +8,15 @@ function Home() {
                 IEVA VAIVODE
                 </h1>
 
-                <p>
-                    Welcome to my portfolio! 
+                <p className="text-center">
+                    Sveiki / Hello / Guten Tag / Здравствуйте !
                 </p>
-                <p>
+                <p className="text-center">
                     I'm a web developer with an art &amp; translations background. 
                     Now I translate ideas into the code to create artworks of code.
                 </p>
-                <p>
-                    Get inspired!
+                <p className="text-center">
+                    GET INSPIRED
                 </p>
            
             
