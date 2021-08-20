@@ -8,7 +8,8 @@ function Home() {
                 IEVA VAIV
                 <span className="text-center">
                  <button className="text-center btn-home">
-                    O
+                    <span>O</span>
+                    <div className="get-inspired">Get inspired</div>
                 </button>
                  </span>
                 DE
