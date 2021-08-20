@@ -9,11 +9,26 @@ function Home() {
                 <span className="text-center">
                  <button className="text-center btn-home">
                     <span>E</span>
-                    <div className="get-inspired white">homE</div>
+                    <div className="get-inspired white">Home</div>
 
                 </button>
                  </span>
-                VA VAIV
+                VA V
+                <span className="text-center">
+                 <button className="text-center btn-home">
+                    <span>A</span>
+                    <div className="get-inspired white">Contact</div>
+
+                </button>
+                 </span>
+                <span className="text-center">
+                 <button className="text-center btn-home">
+                    <span>I</span>
+                    <div className="get-inspired white">Github</div>
+
+                </button>
+                 </span>
+                V
                 <span className="text-center">
                  <button className="text-center btn-home">
                     <span>O</span>
