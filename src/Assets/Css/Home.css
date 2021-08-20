@@ -12,9 +12,11 @@
 }
 
 .btn-home {
-    background-color: teal;
+    background-color:palevioletred;
     border-radius: 50%;
     padding-top: 40px;
     padding-bottom: 40px;
     border: none;
+    color: white;
 }
+
