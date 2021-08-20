@@ -5,7 +5,13 @@ function Home() {
         <div className="container-home">
 
                 <h1 className="myName text-center">
-                IEVA VAIVODE
+                IEVA VAIV
+                <span className="text-center">
+                 <button className="text-center btn-home">
+                    O
+                </button>
+                 </span>
+                DE
                 </h1>
 
                 <p className="text-center">
@@ -15,12 +21,9 @@ function Home() {
                     I'm a web developer with an art &amp; translations background. 
                     Now I translate ideas into the code to create artworks of code.
                 </p>
-                <button className="text-center btn-home">
-                   
-                    GET INSPIRED
-                   
-                    
-                </button>
+
+                 
+               
            
             
 
