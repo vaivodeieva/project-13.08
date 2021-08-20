@@ -9,7 +9,9 @@ function Home() {
                 <span className="text-center">
                  <button className="text-center btn-home">
                     <span>O</span>
-                    <div className="get-inspired">Get inspired</div>
+                    <div className="get-inspired">Get</div>
+                    <div className="get-inspired">inspired</div>
+
                 </button>
                  </span>
                 DE

@@ -14,8 +14,9 @@
 .btn-home {
     background-color: teal;
     border-radius: 50%;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 21px; 
     border: none;
 }
 
