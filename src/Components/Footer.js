@@ -2,10 +2,12 @@ import '../Assets/Css/Footer.css'
 
 function Footer() {
 
+    let date = new Date().getFullYear();
+
     return (
         <div>
             <div className="footer">
-                <p>2021</p>
+                <p>{date}</p>
             </div>
 
         </div>
