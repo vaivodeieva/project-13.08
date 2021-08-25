@@ -7,7 +7,7 @@ function Footer() {
     return (
         <div>
             <div className="footer">
-                <p>{date} &#9996; </p>
+                <p>{date}</p>
             </div>
 
         </div>
