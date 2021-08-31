@@ -8,7 +8,7 @@ function Home() {
                 IEVA VAIVODE
                 </h1>
 
-                <p className="text-center">
+                <p className="text-center greetings">
                     Sveiki / Hello / Guten Tag / Здравствуйте !
                 </p>
                 <p className="text-center">
