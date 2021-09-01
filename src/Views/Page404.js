@@ -1,5 +1,5 @@
 import { tsParticles } from "tsparticles";
-
+import '../Assets/Css/Page404.css';
 
 function Page404() {
 
@@ -87,10 +87,8 @@ function Page404() {
     });
 
     return (
-        <div>
-            <div id="tsparticles">
-
-            </div>
+        <div id="tsparticles">
+            
             
         </div>
     )
