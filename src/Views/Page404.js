@@ -89,7 +89,7 @@ function Page404() {
     return (
         <div>
             <div id="tsparticles">
-                
+
             </div>
             
         </div>
