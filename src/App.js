@@ -5,7 +5,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Hobbies from './Views/Hobbies';
 import Contact from './Views/Contact';
-
+import Page404 from './Views/Page404';
 
 function App() {
 
@@ -27,11 +27,14 @@ function App() {
                         <Contact />
                     </Route>
 
+                    <Route>
+                        <Page404 />
+                    </Route>
+
                 </Switch>
                 <Footer />
             </Router>
 
-            
         </div>
     );
 }
