@@ -1,5 +1,5 @@
 import '../Assets/Css/Header.css';
-
+import { NavLink } from 'react-router-dom';
 
 function Header() {
 
@@ -13,7 +13,7 @@ function Header() {
                     <div className="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
                         <ul className="navbar-nav ">
                             <li className="nav-item">
-                                <a className="nav-link active " aria-current="page" href="#">Home</a>
+                                <a className="nav-link active " aria-current="page" href="./Views/Home">Home</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="https://github.com/vaivodeieva">Github</a>
@@ -22,7 +22,7 @@ function Header() {
                                 <a className="nav-link" href="#">Hobbies</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="./Views/Contact.js">Contact</a>
+                                <a className="nav-link" link="../Views/Contact">Contact</a>
                             </li>
                         </ul>
                     </div>
