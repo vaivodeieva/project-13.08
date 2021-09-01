@@ -22,7 +22,7 @@ function Header() {
                             <NavLink className="nav-link" to="/hobbies">Hobbies</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" link="../Views/Contact">Contact</a>
+                            <NavLink className="nav-link" to="/contact">Contact</NavLink>
                             </li>
                         </ul>
                     </div>
