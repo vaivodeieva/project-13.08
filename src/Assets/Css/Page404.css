@@ -148,7 +148,7 @@
                 -o-animation: moveclouds 15s linear infinite;
             }
             
-            .x1_5{
+            .cloud_x1_5{
                 top:-80px;
                 left:250px;
                 -webkit-transform: scale(0.3);
