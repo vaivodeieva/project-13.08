@@ -17,7 +17,7 @@ function Page404() {
             <hr className="horizontal-rule"/>
             <div className='_1'>THE PAGE</div>
             <div className='_2'>WAS NOT FOUND</div>
-            <a className='btn' href='/'>BACK TO MARS</a>
+            <a className="btn" href='/'>BACK TO MARS</a>
         </div>
 
         </div>
