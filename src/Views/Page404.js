@@ -12,10 +12,10 @@ function Page404() {
             <div className="cloud x4"></div>
             <div className="cloud x5"></div>
         </div>
-        <div className="c">
-            <div className="_404">404</div>
+        <div className="container">
+            <div className="num404">404</div>
             <hr className="horizontal-rule"/>
-            <div className="_1">THE PAGE</div>
+            <div className="the-page">THE PAGE</div>
             <div className="_2">WAS NOT FOUND</div>
             <a className="button" href='/'>BACK TO MARS</a>
         </div>
