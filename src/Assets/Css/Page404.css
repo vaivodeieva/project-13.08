@@ -7,7 +7,7 @@
                 max-height:700px;
                 overflow: hidden;
             }
-            .c{
+            .c {
                 text-align: center;
                 display: block;
                 position: relative;
@@ -50,8 +50,8 @@
             }
            
 
-            .btn {
-                background-color: rgb( 255, 255, 255 );
+            .button {
+                background-color: white;
                 position: relative;
                 display: inline-block;
                 width: 358px;
