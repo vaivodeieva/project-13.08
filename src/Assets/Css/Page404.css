@@ -81,7 +81,7 @@
                 z-index: -10;
             }
             
-            hr:after {
+            .horizontal-rule:after {
                 content: "\2022";
                 display: inline-block;
                 position: relative;
@@ -136,7 +136,7 @@
                 -moz-border-radius: 200px;
             }
             
-            .x1 {
+            .cloud_x1 {
                 top:-50px;
                 left:100px;
                 -webkit-transform: scale(0.3);
