@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=opensans:500);
+
 .display404 {
                 background: #33cc99;
                 color:#fff;
@@ -41,7 +42,7 @@
                 position: relative;
                 display: inline-block;
                 margin: 19px 0px 0px 0px;
-                /* top: 256.301px; */
+                top: 256.301px;
                 z-index: 3;
                 width: 100%;
                 line-height: 1.2em;
@@ -49,7 +50,7 @@
             }
            
 
-            .btn{
+            .btn {
                 background-color: rgb( 255, 255, 255 );
                 position: relative;
                 display: inline-block;
@@ -60,14 +61,15 @@
                 margin:0 auto;
                 color:#33cc99;
                 text-decoration: none;
-                margin-right: 10px
+                margin-right: 10px;
             }
+
             .right{
                 float:right;
                 width:60%;
             }
             
-            hr{
+            .horizontal-rule {
                 padding: 0;
                 border: none;
                 border-top: 5px solid #fff;
