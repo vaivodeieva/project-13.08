@@ -238,7 +238,7 @@
   
   .four.b {
     transform-origin: bottom right;
-    animation-duration: 3s;
+    animation-duration: 4s;
     transform-box: fill-box;
   }
   
