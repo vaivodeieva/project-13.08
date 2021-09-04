@@ -1,7 +1,9 @@
+import '../Assets/Css/Hobbies.css';
+
 function Hobbies() {
 
     return (
-        <div>
+        <div hobbies-container>
 
         </div>
     )
