@@ -3,7 +3,7 @@ import '../Assets/Css/Hobbies.css';
 function Hobbies() {
 
     return (
-        <div hobbies-container>
+        <div className="hobbies-container">
 
         </div>
     )
