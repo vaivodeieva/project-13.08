@@ -5,6 +5,7 @@ function Contact() {
         <div className="contact-container">
            <div className="row">
                <div className="col">
+                   Test
                </div>
 
            </div>
