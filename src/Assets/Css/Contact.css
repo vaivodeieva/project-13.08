@@ -1,3 +1,4 @@
 .contacts-container {
-    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url('../Images/nature.jpg');
 }
