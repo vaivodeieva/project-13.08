@@ -17,7 +17,7 @@ function Home() {
                 </p>
 
                  <div className="text-center">
-                 <button className="text-center btn-home">
+                 <button className="animated-phrase text-center btn-home">
                     GET INSPIRED
                 </button>
                  </div>
