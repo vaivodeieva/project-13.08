@@ -49,13 +49,13 @@
 
 
 .animation {
-    width: 100px;
-    height: 100px;
-    background: red;
-    transition: width 2s, height 4s;
+    width: 120px;
+    height: 120px;
+    background: palevioletred;
+    transition: width 2s, height 2s;
   }
   
   .animation:hover {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
   }
