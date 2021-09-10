@@ -21,6 +21,8 @@ function Home() {
                     GET INSPIRED
                 </button>
                  </div>
+
+                 <button className="text-center btn-home">Click</button>
                
            
             
