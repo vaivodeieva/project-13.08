@@ -27,8 +27,8 @@
 }
 
 .animation {
-    width: 120px;
-    height: 120px;
+    width: 115px;
+    height: 115px;
     background: palevioletred;
     transition: width 2s, height 2s;
   }
