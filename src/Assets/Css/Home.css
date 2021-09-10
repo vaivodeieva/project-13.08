@@ -30,7 +30,7 @@
     width: 115px;
     height: 115px;
     background: palevioletred;
-    transition: width 2s, height 2s;
+    transition: width 1s, height 1s;
   }
   
   .animation:hover {
