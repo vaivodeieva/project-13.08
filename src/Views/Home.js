@@ -22,7 +22,7 @@ function Home() {
                 </button>
                  </div>
 
-                 <button className="text-center btn-home">Click</button>
+                 <button className="animated-phrase animation text-center btn-home">Click</button>
                
            
             
