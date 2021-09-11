@@ -22,7 +22,6 @@ function Home() {
                 </button>
                  </div>
 
-                 <button className="animated-phrase animation text-center btn-home">Click</button>
                
            
             
