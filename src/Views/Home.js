@@ -9,7 +9,7 @@ function Home() {
                 </h1>
 
                 <p className="text-center greetings">
-                    Sveiki / Hello / Guten Tag / Здравствуйте !
+                    <span className="lv">Sveiki </span>/ Hello / Guten Tag / Здравствуйте !
                 </p>
                 <p className="text-center">
                     I'm a web developer with an art &amp; translations background. 

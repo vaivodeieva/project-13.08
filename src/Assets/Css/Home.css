@@ -37,3 +37,7 @@
     width: 150px;
     height: 150px;
   }
+
+  .lv:hover {
+      background: lightcoral;
+  }
