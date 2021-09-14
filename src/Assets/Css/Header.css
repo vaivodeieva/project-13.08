@@ -2,7 +2,7 @@
     font-family: fantasy;
     cursor:grabbing;
     font-stretch: expanded;
-    background-color: rgba(20, 40, 45, 0.3);
     position: fixed;
+    background-color: transparent;
 
 }
