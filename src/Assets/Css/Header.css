@@ -1,8 +1,9 @@
 .navbar {
-    font-family: fantasy;
-    cursor:grabbing;
+    /* font-family: fantasy; */
+    cursor: grabbing;
     font-stretch: expanded;
     position: fixed;
-    background-color: transparent;
+    /* background-color: transparent; */
+    text-transform: capitalize;
 
 }
