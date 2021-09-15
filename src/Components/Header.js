@@ -11,8 +11,8 @@ function Header() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-                        <ul className="navbar-nav ">
-                            <li className="nav-item">
+                        <ul className="navbar-nav">
+                            <li className="nav-item light">
                             <NavLink className="nav-link active" exact to="/">Home</NavLink>
                             </li>
                             <li className="nav-item">

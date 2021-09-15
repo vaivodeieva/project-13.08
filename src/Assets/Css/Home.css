@@ -48,4 +48,9 @@
       height: 150px;
   }
 
-  
+  .animation2:hover {
+    width: 180px;
+    height: 180px;
+    background: palevioletred;
+    transition: width 1s, height 1s;
+  }

@@ -8,7 +8,7 @@ function Home() {
                 <h1 className="myName text-center">
                 IEVA VAIVODE
                 </h1>
-                <img className="home-picture animation" src={ieva}/>
+                <img className="home-picture animation2" src={ieva}/>
 
                 <p className="text-center greetings">
                     <span className="lv">Sveiki </span>/ Hello / Guten Tag / Здравствуйте !

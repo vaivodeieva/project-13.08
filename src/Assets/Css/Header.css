@@ -1,8 +1,9 @@
 .navbar {
-    /* font-family: fantasy; */
     cursor: grabbing;
-    font-stretch: expanded;
     position: fixed;
     text-transform: capitalize;
-    color: white;
+}
+
+.light {
+    color: white!important;
 }
