@@ -1,6 +1,6 @@
 
 .myName {
-    padding-top: 70px;
+    padding-top: 10px;
     font-size: 70px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -43,6 +43,12 @@
   }
 
   .home-picture {
-      height: 300px;
       border-radius: 50%;
+      width: 150px;
+      height: 150px;
+  }
+
+  .home-picture:hover {
+      width: 180px;
+      height: 180px;
   }
