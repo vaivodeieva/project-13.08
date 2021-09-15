@@ -18,7 +18,7 @@ function Home() {
 
                 <div className="text-center">
                  <button className="animated-phrase animation text-center btn-home">
-                    GET INSPIRED
+                    GET INSPIRED!
                 </button>
                  </div>
                  
