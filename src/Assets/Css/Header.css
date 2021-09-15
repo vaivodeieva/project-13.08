@@ -3,7 +3,6 @@
     cursor: grabbing;
     font-stretch: expanded;
     position: fixed;
-    /* background-color: transparent; */
     text-transform: capitalize;
-
+    color: white;
 }
