@@ -41,3 +41,8 @@
   .lv:hover {
       background: lightcoral;
   }
+
+  .home-picture {
+      height: 300px;
+      border-radius: 50%;
+  }

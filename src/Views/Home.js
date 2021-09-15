@@ -1,4 +1,5 @@
 import'../Assets/Css/Home.css';
+import ieva from '../Assets/Images/ieva.jpg';
 
 function Home() {
     return (
@@ -7,6 +8,7 @@ function Home() {
                 <h1 className="myName text-center">
                 IEVA VAIVODE
                 </h1>
+                <img className="home-picture" src={ieva}/>
 
                 <p className="text-center greetings">
                     <span className="lv">Sveiki </span>/ Hello / Guten Tag / Здравствуйте !
