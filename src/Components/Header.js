@@ -19,7 +19,7 @@ function Header() {
                                 <a className="nav-link github-circle" href="https://github.com/vaivodeieva">Github</a>
                             </li>
                             <li className="nav-item">
-                            <NavLink className="nav-link" to="/hobbies">Hobbies</NavLink>
+                            <NavLink className="nav-link hobbies-circle" to="/hobbies">Hobbies</NavLink>
                             </li>
                             <li className="nav-item">
                             <NavLink className="nav-link" to="/contact">Contact</NavLink>
