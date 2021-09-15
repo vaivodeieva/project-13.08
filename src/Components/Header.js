@@ -13,10 +13,10 @@ function Header() {
                     <div className="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item light">
-                            <NavLink className="nav-link active" exact to="/">Home</NavLink>
+                            <NavLink className="nav-link active home-circle" exact to="/">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://github.com/vaivodeieva">Github</a>
+                                <a className="nav-link github-circle" href="https://github.com/vaivodeieva">Github</a>
                             </li>
                             <li className="nav-item">
                             <NavLink className="nav-link" to="/hobbies">Hobbies</NavLink>

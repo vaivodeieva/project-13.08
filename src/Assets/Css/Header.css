@@ -7,3 +7,19 @@
 .light {
     color: white!important;
 }
+
+.home-circle {
+    width: 70px;
+    height: 70px;
+    background-color: cornflowerblue;
+    transition: width 1s, height 1s;
+    border-radius: 50%;
+}
+
+.github-circle {
+    width: 70px;
+    height: 70px;
+    background-color:darkseagreen;
+    transition: width 1s, height 1s;
+    border-radius: 50%;
+}
