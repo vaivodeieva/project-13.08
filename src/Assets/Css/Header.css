@@ -9,8 +9,8 @@
 }
 
 .home-circle {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     background-color: cornflowerblue;
     transition: width 1s, height 1s;
     border-radius: 50%;
@@ -25,16 +25,16 @@
 }
 
 .hobbies-circle {
-    width: 95px;
-    height: 95px;
+    width: 90px;
+    height: 90px;
     background-color:lightseagreen;
     transition: width 1s, height 1s;
     border-radius: 50%;
 }
 
 .contact-circle {
-    width: 80px;
-    height: 80px;
+    width: 69px;
+    height: 69px;
     background-color:mediumspringgreen;
     transition: width 1s, height 1s;
     border-radius: 50%;
