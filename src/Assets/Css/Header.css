@@ -4,25 +4,18 @@
     text-transform: capitalize;
 }
 
-.home-circle {
-    width: 55px;
-    height: 55px;
-    background-color: cornflowerblue;
-    border-radius: 50%;
-}
-
 .home-circle:hover {
     width: 65px;
     height: 65px;
     transition: width 1s, height 1s;
-    background-color: cornflowerblue;
-    border-radius: 50%;
   }
 
   .home-circle {
     transition: width 1s, height 1s;  
     width: 55px;
     height: 55px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
   }
 
 .github-circle {
