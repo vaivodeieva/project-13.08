@@ -41,8 +41,8 @@
 }
 
 .animation2:hover {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     transition: width 1s, height 1s;
   }
 
