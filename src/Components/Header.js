@@ -16,6 +16,7 @@ function Header() {
                         <ul className="navbar-nav">
                             <li>
                             <img className="home-picture animation2" src={ieva}/>
+
                             </li>
                             <li className="nav-item light">
                             <NavLink className="nav-link active home-circle" exact to="/">Home</NavLink>
