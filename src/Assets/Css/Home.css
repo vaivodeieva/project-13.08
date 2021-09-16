@@ -42,14 +42,4 @@
       background: lightcoral;
   }
 
-  .home-picture {
-      border-radius: 50%;
-      width: 180px;
-      height: 180px;
-  }
-
-  .animation2:hover {
-    width: 200px;
-    height: 200px;
-    transition: width 1s, height 1s;
-  }
+  

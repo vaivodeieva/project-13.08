@@ -39,3 +39,23 @@
     transition: width 1s, height 1s;
     border-radius: 50%;
 }
+
+.animation2:hover {
+    width: 300px;
+    height: 300px;
+    transition: width 1s, height 1s;
+  }
+
+  /* Lai animācijā palielinātā fotogrāfija tikpat vienmērīgi samazinās, kad kursors to vairs neskar,
+  atkārto to pašu animation2, tikai bez :hover   : */
+  .animation2 { 
+    transition: width 1s, height 1s;
+    width: 180px;
+    height: 180px;
+  }
+
+  .home-picture {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
