@@ -12,15 +12,25 @@
     width: 55px;
     height: 55px;
     background-color: cornflowerblue;
-    transition: width 1s, height 1s;
     border-radius: 50%;
 }
+
+.home-circle:hover {
+    width: 65px;
+    height: 65px;
+    transition: width 1s, height 1s;
+  }
+
+  .home-circle {
+    transition: width 1s, height 1s;  
+    width: 55px;
+    height: 55px;
+  }
 
 .github-circle {
     width: 80px;
     height: 80px;
     background-color:darkseagreen;
-    transition: width 1s, height 1s;
     border-radius: 50%;
 }
 
@@ -28,7 +38,6 @@
     width: 90px;
     height: 90px;
     background-color:lightseagreen;
-    transition: width 1s, height 1s;
     border-radius: 50%;
 }
 
@@ -36,7 +45,6 @@
     width: 69px;
     height: 69px;
     background-color:mediumspringgreen;
-    transition: width 1s, height 1s;
     border-radius: 50%;
 }
 
