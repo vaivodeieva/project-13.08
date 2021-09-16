@@ -18,7 +18,7 @@ function Header() {
                             <img className="home-picture animation2" src={ieva}/>
 
                             </li>
-                            <li className="nav-item light">
+                            <li className="nav-item">
                             <NavLink className="nav-link active home-circle" exact to="/">Home</NavLink>
                             </li>
                             <li className="nav-item">
