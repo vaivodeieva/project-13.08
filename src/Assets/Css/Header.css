@@ -1,17 +1,3 @@
-.home-circle {
-  width: 55px;
-  height: 55px;
-  background-color: cornflowerblue;
-  border-radius: 50%;
-}
-
-.home-circle:hover {
-    width: 65px;
-    height: 65px;
-    background-color: cornflowerblue;
-    border-radius: 50%;
-    transition: width 1s, height 1s;
-  }
 
   .home-circle {
     transition: width 1s, height 1s;  
@@ -21,11 +7,28 @@
     border-radius: 50%;
   }
 
+  .home-circle:hover {
+    width: 65px;
+    height: 65px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    transition: width 1s, height 1s;
+  }
+
 .github-circle {
+  transition: width 1s, height 1s;  
     width: 80px;
     height: 80px;
     background-color:darkseagreen;
     border-radius: 50%;
+}
+
+.github-circle:hover {
+  width: 90px;
+  height: 90px;
+  background-color:darkseagreen;
+  border-radius: 50%;
+  transition: width 1s, height 1s;  
 }
 
 .hobbies-circle {
