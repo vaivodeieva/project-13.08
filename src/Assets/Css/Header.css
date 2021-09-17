@@ -16,7 +16,7 @@
   }
 
 .github-circle {
-  transition: width 1s, height 1s;  
+   transition: width 1s, height 1s;  
     width: 80px;
     height: 80px;
     background-color:darkseagreen;
@@ -32,10 +32,19 @@
 }
 
 .hobbies-circle {
+    transition: width 1s, height 1s;  
     width: 90px;
     height: 90px;
     background-color:lightseagreen;
     border-radius: 50%;
+}
+
+.hobbies-circle:hover {
+  width: 100px;
+  height: 100px;
+  background-color:lightseagreen;
+  border-radius: 50%;
+  transition: width 1s, height 1s;  
 }
 
 .contact-circle {
