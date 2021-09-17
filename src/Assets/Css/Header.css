@@ -38,23 +38,21 @@
 }
 
 .hobbies-circle {
-    transition: width 1s, height 1s;  
     width: 90px;
     height: 90px;
     background-color:lightseagreen;
     border-radius: 50%;
-    padding-left: 9px;
-    padding-right: 1px;
+    padding-left: 8px;
+    transition: width 1s, height 1s; 
 }
 
 .hobbies-circle:hover {
+  transition: width 1s, height 1s; 
   width: 100px;
   height: 100px;
   background-color:lightseagreen;
   border-radius: 50%;
-  transition: width 1s, height 1s; 
-  padding-left: 9px;
-  padding-right: 1px;
+  padding-left: 8px;
 }
 
 .contact-circle {

@@ -27,7 +27,7 @@ function Header() {
                             <NavLink className="nav-link" to="/hobbies">Hobbies</NavLink>
                             </li>
                             <li className="nav-item contact-circle">
-                            <NavLink className="nav-link contact-circle" to="/contact">Contact</NavLink>
+                            <NavLink className="nav-link" to="/contact">Contact</NavLink>
                             </li>
                         </ul>
                     </div>
