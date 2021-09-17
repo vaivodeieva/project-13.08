@@ -16,10 +16,9 @@ function Header() {
                         <ul className="navbar-nav">
                             <li>
                             <img className="home-picture animation2" src={ieva}/>
-
                             </li>
-                            <li className="nav-item">
-                            <NavLink className="nav-link active home-circle" exact to="/">Home</NavLink>
+                            <li className="nav-item home-circle">
+                            <NavLink className="nav-link active" exact to="/">Home</NavLink>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link github-circle" href="https://github.com/vaivodeieva">Github</a>
