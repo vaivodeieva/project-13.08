@@ -13,7 +13,7 @@ function Home() {
                 </p>
                 <p className="text-center">
                     I'm a web developer with an art &amp; translations background. 
-                    Now I translate ideas into the code to create artworks of code.
+                    Now I translate ideas into the code to create masterworks of code.
                 </p>
 
                 <div className="text-center">

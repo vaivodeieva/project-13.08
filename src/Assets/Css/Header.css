@@ -8,8 +8,8 @@
   }
 
   .home-circle:hover {
-    width: 75px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
     background-color: cornflowerblue;
     border-radius: 50%;
     transition: width 1s, height 1s;
