@@ -20,13 +20,13 @@ function Header() {
                             <li className="nav-item home-circle">
                             <NavLink className="nav-link active" exact to="/">Home</NavLink>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link github-circle" href="https://github.com/vaivodeieva">Github</a>
+                            <li className="nav-item github-circle">
+                                <a className="nav-link" href="https://github.com/vaivodeieva">Github</a>
                             </li>
-                            <li className="nav-item">
-                            <NavLink className="nav-link hobbies-circle" to="/hobbies">Hobbies</NavLink>
+                            <li className="nav-item hobbies-circle">
+                            <NavLink className="nav-link" to="/hobbies">Hobbies</NavLink>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item contact-circle">
                             <NavLink className="nav-link contact-circle" to="/contact">Contact</NavLink>
                             </li>
                         </ul>
