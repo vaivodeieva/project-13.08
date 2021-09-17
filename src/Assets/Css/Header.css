@@ -8,8 +8,8 @@
   }
 
   .home-circle:hover {
-    width: 65px;
-    height: 65px;
+    width: 75px;
+    height: 75px;
     background-color: cornflowerblue;
     border-radius: 50%;
     transition: width 1s, height 1s;
@@ -24,8 +24,8 @@
 }
 
 .github-circle:hover {
-  width: 90px;
-  height: 90px;
+  width: 93px;
+  height: 93px;
   background-color:darkseagreen;
   border-radius: 50%;
   transition: width 1s, height 1s;  
