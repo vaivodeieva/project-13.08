@@ -43,6 +43,8 @@
     height: 90px;
     background-color:lightseagreen;
     border-radius: 50%;
+    padding-left: 9px;
+    padding-right: 1px;
 }
 
 .hobbies-circle:hover {
@@ -50,7 +52,9 @@
   height: 100px;
   background-color:lightseagreen;
   border-radius: 50%;
-  transition: width 1s, height 1s;  
+  transition: width 1s, height 1s; 
+  padding-left: 9px;
+  padding-right: 1px;
 }
 
 .contact-circle {
@@ -59,6 +63,7 @@
     background-color:mediumspringgreen;
     border-radius: 50%;
     transition: width 1s, height 1s;  
+    padding-left: 1px;
 }
 
 .contact-circle:hover {
@@ -67,6 +72,7 @@
   height: 79px;
   background-color:mediumspringgreen;
   border-radius: 50%;
+  padding-left: 1px;
 }
 
 
