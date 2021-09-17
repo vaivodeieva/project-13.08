@@ -5,6 +5,8 @@
     height: 55px;
     background-color: cornflowerblue;
     border-radius: 50%;
+    padding-left: 1px;
+    padding-right: 1px;
   }
 
   .home-circle:hover {
@@ -83,3 +85,4 @@
     width: 180px;
     height: 180px;
 }
+
