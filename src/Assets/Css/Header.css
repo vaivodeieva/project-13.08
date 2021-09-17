@@ -52,7 +52,17 @@
     height: 69px;
     background-color:mediumspringgreen;
     border-radius: 50%;
+    transition: width 1s, height 1s;  
 }
+
+.contact-circle:hover {
+  transition: width 1s, height 1s;  
+  width: 79px;
+  height: 79px;
+  background-color:mediumspringgreen;
+  border-radius: 50%;
+}
+
 
 .animation2:hover {
     width: 250px;
