@@ -43,19 +43,20 @@ function Header() {
                     </button>
 
                     <div className={mainMenuClasses} id="navbarNavAltMarkup">
+
                         <div className="navbar-nav">
                             <img className="home-picture animation2" src={ieva}/>
                             <span className="nav-item home-circle">
-                            <NavLink className="nav-link home-circle" exact to="/">Home</NavLink>
+                            <NavLink className="nav-link" exact to="/">Home</NavLink>
                             </span>
                             <span className="nav-item github-circle">
                               <a className="nav-link" href="https://github.com/vaivodeieva">Github</a>
                             </span>
                             <span className="nav-item hobbies-circle">
-                            <NavLink className="nav-link hobbies-circle" to="/hobbies">Hobbies</NavLink>
+                            <NavLink className="nav-link" to="/hobbies">Hobbies</NavLink>
                             </span>
                             <span className="nav-item contact-circle">
-                            <NavLink className="nav-link contact-circle" to="/contact" >Contact</NavLink>
+                            <NavLink className="nav-link" to="/contact" >Contact</NavLink>
                             </span>
                         </div>
                     </div>

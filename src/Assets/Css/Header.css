@@ -1,20 +1,18 @@
 
   .home-circle {
     transition: width 1s, height 1s;  
-    width: 56px;
-    height: 56px;
+    width: 80px;
+    height: 80px;
     background-color: cornflowerblue;
     border-radius: 50%;
-    padding-right: 3px;
   }
 
   .home-circle:hover {
-    width: 70px;
-    height: 70px;
+    width: 93px;
+    height: 93px;
     background-color: cornflowerblue;
     border-radius: 50%;
     transition: width 1s, height 1s;
-    padding-right: 3px;
   }
 
 .github-circle {
@@ -38,8 +36,8 @@
 }
 
 .hobbies-circle {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     background-color:lightseagreen;
     border-radius: 50%;
     padding-left: 8px;
@@ -48,16 +46,16 @@
 
 .hobbies-circle:hover {
   transition: width 1s, height 1s; 
-  width: 100px;
-  height: 100px;
+  width: 93px;
+  height: 93px;
   background-color:lightseagreen;
   border-radius: 50%;
   padding-left: 8px;
 }
 
 .contact-circle {
-    width: 69px;
-    height: 69px;
+    width: 80px;
+    height: 80px;
     background-color:mediumspringgreen;
     border-radius: 50%;
     transition: width 1s, height 1s;  
@@ -66,8 +64,8 @@
 
 .contact-circle:hover {
   transition: width 1s, height 1s;  
-  width: 80px;
-  height: 80px;
+  width: 103px;
+  height: 103px;
   background-color:mediumspringgreen;
   border-radius: 50%;
   padding-left: 1px;
