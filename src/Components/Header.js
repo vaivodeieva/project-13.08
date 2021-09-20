@@ -46,6 +46,9 @@ function Header() {
                         <div className="navbar-nav">
                             <img className="home-picture animation2" src={ieva}/>
                             <NavLink className="nav-link home-circle" exact to="/">Home</NavLink>
+                            <li className="nav-item github-circle">
+                                <a className="nav-link" href="https://github.com/vaivodeieva">Github</a>
+                            </li>
                             <NavLink className="nav-link" to="/hobbies">Hobbies</NavLink>
                             <NavLink className="nav-link" to="/contact" >Contact</NavLink>
                         </div>
