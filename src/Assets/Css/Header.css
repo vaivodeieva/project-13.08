@@ -33,8 +33,8 @@
   background-color:darkseagreen;
   border-radius: 50%;
   transition: width 1s, height 1s;
-  padding-left: 7px;
-  padding-right: 1px;
+  padding-left: 12px;
+  padding-top: 18px;
 }
 
 .hobbies-circle {
@@ -42,8 +42,9 @@
     height: 80px;
     background-color:lightseagreen;
     border-radius: 50%;
-    padding-left: 8px;
     transition: width 1s, height 1s; 
+    padding-left: 12px;
+    padding-top: 18px;
 }
 
 .hobbies-circle:hover {
@@ -51,8 +52,9 @@
   width: 180px;
   height: 180px;
   background-color:lightseagreen;
-  border-radius: 22%;
-  padding-left: 8px;
+  border-radius: 50%;
+  padding-left: 12px;
+  padding-top: 18px;
 }
 
 .contact-circle {
@@ -61,7 +63,8 @@
     background-color:mediumspringgreen;
     border-radius: 50%;
     transition: width 1s, height 1s;  
-    padding-left: 1px;
+    padding-left: 12px;
+    padding-top: 18px;
 }
 
 .contact-circle:hover {
@@ -69,7 +72,7 @@
   width: 180px;
   height: 180px;
   background-color:mediumspringgreen;
-  border-radius: 22%;
+  border-radius: 50%;
   padding-left: 1px;
 }
 
@@ -86,11 +89,12 @@
     transition: width 1s, height 1s;
     width: 180px;
     height: 180px;
+    border-radius: 50%;
   }
 
-  .home-picture {
+  /* .home-picture {
     border-radius: 50%;
     width: 180px;
     height: 180px;
-}
+} */
 

@@ -44,7 +44,7 @@ function Header() {
 
                     <div className={mainMenuClasses} id="navbarNavAltMarkup">
 
-                        <div className="navbar-nav">
+                        <div className="navbar-nav mx-auto">
                             <img className="home-picture animation2" src={ieva}/>
                             <span className="nav-item home-circle">
                             <NavLink className="nav-link" exact to="/">Home</NavLink>
