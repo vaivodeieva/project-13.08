@@ -1,41 +1,60 @@
-import '../Assets/Css/Header.css';
 import { NavLink } from 'react-router-dom';
+import {useState} from 'react';
+// import webpagelogo from '../Assets/Images/website-logo.png';
+import '../Assets/Css/Header.css';
+import $ from 'jquery';
 import ieva from '../Assets/Images/ieva.jpg';
 
+
+$(document).ready(function () {
+  
+    $('nav-link')
+            .click(function (e) {
+        $('nav-link')
+            .removeClass('active');
+        $(this).addClass('active');
+    });
+});
+
+
 function Header() {
+    const [mainMenueCollapsed, setMainMenuCollapsed] = useState(true);
+
+    const toggleMainMenu = () => {
+        setMainMenuCollapsed(!mainMenueCollapsed);
+    }
+
+    let mainMenuClasses= 'collapse navbar-collapse';
+    if (!mainMenueCollapsed){
+        mainMenuClasses+= ' show';
+    }
+
+    let menuTogglerButtonClasses = 'navbar-toggler';
+    if (!mainMenueCollapsed){
+        menuTogglerButtonClasses += ' collapsed';
+    }
+
 
     return (
-        <div >
-            <nav className="navbar navbar-expand-md navbar-expand-lg navbar-expand-sm navbar-light bg-dark">
+        <div>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark d-flex flex row-reverse">
                 <div className="container-fluid">
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon">
-                        </span>
+                    <button onClick={toggleMainMenu} className={menuTogglerButtonClasses} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-                        <ul className="navbar-nav">
-                            <li>
+                    <div className={mainMenuClasses} id="navbarNavAltMarkup">
+                        <div className="navbar-nav">
                             <img className="home-picture animation2" src={ieva}/>
-                            </li>
-                            <li className="nav-item home-circle">
-                            <NavLink className="nav-link active" exact to="/">Home</NavLink>
-                            </li>
-                            <li className="nav-item github-circle">
-                                <a className="nav-link" href="https://github.com/vaivodeieva">Github</a>
-                            </li>
-                            <li className="nav-item hobbies-circle">
+                            <NavLink className="nav-link home-circle" exact to="/">Home</NavLink>
                             <NavLink className="nav-link" to="/hobbies">Hobbies</NavLink>
-                            </li>
-                            <li className="nav-item contact-circle">
-                            <NavLink className="nav-link" to="/contact">Contact</NavLink>
-                            </li>
-                        </ul>
+                            <NavLink className="nav-link" to="/contact" >Contact</NavLink>
+                        </div>
                     </div>
                 </div>
             </nav>
-
         </div>
     )
+
 }
 
 export default Header;
