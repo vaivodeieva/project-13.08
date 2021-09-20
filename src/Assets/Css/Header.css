@@ -8,10 +8,10 @@
   }
 
   .home-circle:hover {
-    width: 93px;
-    height: 93px;
+    width: 180px;
+    height: 180px;
     background-color: cornflowerblue;
-    border-radius: 50%;
+    border-radius: 22%;
     transition: width 1s, height 1s;
   }
 
@@ -26,10 +26,10 @@
 }
 
 .github-circle:hover {
-  width: 93px;
-  height: 93px;
+  width: 180px;
+  height: 180px;
   background-color:darkseagreen;
-  border-radius: 50%;
+  border-radius: 22%;
   transition: width 1s, height 1s;
   padding-left: 7px;
   padding-right: 1px;
@@ -46,10 +46,10 @@
 
 .hobbies-circle:hover {
   transition: width 1s, height 1s; 
-  width: 93px;
-  height: 93px;
+  width: 180px;
+  height: 180px;
   background-color:lightseagreen;
-  border-radius: 50%;
+  border-radius: 22%;
   padding-left: 8px;
 }
 
@@ -64,10 +64,10 @@
 
 .contact-circle:hover {
   transition: width 1s, height 1s;  
-  width: 103px;
-  height: 103px;
+  width: 180px;
+  height: 180px;
   background-color:mediumspringgreen;
-  border-radius: 50%;
+  border-radius: 22%;
   padding-left: 1px;
 }
 
