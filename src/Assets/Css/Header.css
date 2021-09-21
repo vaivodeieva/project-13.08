@@ -1,11 +1,11 @@
 
   .home-circle {
     transition: width 1s, height 1s;  
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     background-color: cornflowerblue;
     border-radius: 50%;
-    padding-left: 10px;
+    padding-left: 13px;
     padding-top: 20px;
   }
 
@@ -21,11 +21,11 @@
 
 .github-circle {
    transition: width 1s, height 1s;  
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     background-color:darkseagreen;
     border-radius: 50%;
-    padding-left: 10px;
+    padding-left: 12px;
     padding-top: 20px;
 }
 
@@ -40,8 +40,8 @@
 }
 
 .hobbies-circle {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     background-color:lightseagreen;
     border-radius: 50%;
     transition: width 1s, height 1s; 
@@ -60,8 +60,8 @@
 }
 
 .contact-circle {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     background-color:mediumspringgreen;
     border-radius: 50%;
     transition: width 1s, height 1s;  
@@ -100,4 +100,5 @@
     width: 180px;
     height: 180px;
 } */
+
 
