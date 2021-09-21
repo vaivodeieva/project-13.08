@@ -101,4 +101,6 @@
     height: 180px;
 } */
 
-
+.nav-link {
+  color: black!important;
+}
