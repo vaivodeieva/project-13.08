@@ -3,6 +3,7 @@ import {useState} from 'react';
 import '../Assets/Css/Header.css';
 import $ from 'jquery';
 import ieva from '../Assets/Images/ieva.jpg';
+import homeicon from '../Assets/Images/home-icon.png'
 
 
 $(document).ready(function () {
@@ -47,7 +48,9 @@ function Header() {
                         <div className="navbar-nav mx-auto">
                             <img className="home-picture animation2" src={ieva}/>
                             <span className="nav-item home-circle">
-                            <NavLink className="nav-link" exact to="/">Home</NavLink>
+                            <NavLink className="nav-link" exact to="/">
+                                <img src={homeicon} style={{height: '90px', width: '90px'}}/>
+                            </NavLink>
                             </span>
                             <span className="nav-item github-circle">
                               <a className="nav-link" href="https://github.com/vaivodeieva">Github</a>
