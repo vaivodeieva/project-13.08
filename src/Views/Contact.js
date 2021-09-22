@@ -24,21 +24,22 @@ function Contact() {
                     <form>
                         <div className="mb-3">
                             <label for="exampleName" className="form-label">Your name</label>
-                            <input type="email" className="form-control" id="exampleName"/>
+                            <input type="email" className="form-control" id="exampleName" />
                         </div>
                         <div className="mb-3">
                             <label for="exampleInputEmail1" className="form-label">Email address</label>
-                            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-                            <div id="emailHelp" className ="form-text">We'll never share your email with anyone else.</div>
+                            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                            <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                         </div>
 
-                        <div className="mb-3">
-                            <label for="exampleTextarea" className="form-label">Your message</label>
-                            <input type="textarea" className="form-control" id="exampleTextarea"/>
+                        <div className="form-floating">
+                            <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{height: '100px'}}></textarea>
+                            <label for="floatingTextarea2">Comments</label>
                         </div>
+
                         <div className="mb-3 form-check">
-                            <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-                            <label className ="form-check-label" for="exampleCheck1">Check me out</label>
+                            <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+                            <label className="form-check-label" for="exampleCheck1">Check me out</label>
                         </div>
                         <button type="submit" className="btn btn-primary">Submit</button>
                     </form>
