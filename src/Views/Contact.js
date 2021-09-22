@@ -19,7 +19,7 @@ function Contact() {
 
                 </div>
 
-                <div className="col-8">
+                <div className="col-md-8 col-lg-6">
 
                     <form>
                         <div className="mb-3">
@@ -34,14 +34,14 @@ function Contact() {
 
                         <div className="form-floating">
                             <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{height: '100px'}}></textarea>
-                            <label for="floatingTextarea2">Comments</label>
+                            <label for="floatingTextarea2">Your message</label>
                         </div>
 
                         <div className="mb-3 form-check">
                             <input type="checkbox" className="form-check-input" id="exampleCheck1" />
                             <label className="form-check-label" for="exampleCheck1">Check me out</label>
                         </div>
-                        <button type="submit" className="btn btn-primary">Submit</button>
+                        <button type="submit" className="btn btn-primary">Send</button>
                     </form>
 
 
