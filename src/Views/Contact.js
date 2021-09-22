@@ -11,7 +11,7 @@ function Contact() {
             </div>
             <div className="row">
 
-                <div className="col-4">
+                <div className="col-md-4">
 
                     <h3>Like me on Facebook</h3>
                     <h3>Follow me on Twitter</h3>
