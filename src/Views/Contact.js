@@ -22,26 +22,25 @@ function Contact() {
                 <div className="col-8">
 
                     <form>
-                        <div class="mb-3">
-                            <label for="exampleName" class="form-label">Your name</label>
-                            <input type="email" class="form-control" id="exampleName" aria-describedby="emailHelp"/>
-                            <div id="emailHelp" class ="form-text">We'll never share your email with anyone else.</div>
+                        <div className="mb-3">
+                            <label for="exampleName" className="form-label">Your name</label>
+                            <input type="email" className="form-control" id="exampleName"/>
                         </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-                            <div id="emailHelp" class ="form-text">We'll never share your email with anyone else.</div>
+                        <div className="mb-3">
+                            <label for="exampleInputEmail1" className="form-label">Email address</label>
+                            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                            <div id="emailHelp" className ="form-text">We'll never share your email with anyone else.</div>
                         </div>
 
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1"/>
+                        <div className="mb-3">
+                            <label for="exampleTextarea" className="form-label">Your message</label>
+                            <input type="textarea" className="form-control" id="exampleTextarea"/>
                         </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-                            <label class ="form-check-label" for="exampleCheck1">Check me out</label>
+                        <div className="mb-3 form-check">
+                            <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+                            <label className ="form-check-label" for="exampleCheck1">Check me out</label>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" className="btn btn-primary">Submit</button>
                     </form>
 
 
