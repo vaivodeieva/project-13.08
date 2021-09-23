@@ -45,15 +45,6 @@ function Contact() {
                     </form>
 
 
-                    {/* <h2>Send me an email</h2>
-                    <label for="name">Name</label>
-                    <input id="name"></input>
-                    <label for="email">Email</label>
-                    <input id="email"></input>
-                    <label for="message">Message</label>
-                    <textarea id="message"></textarea> */}
-
-
                 </div>
 
             </div>
