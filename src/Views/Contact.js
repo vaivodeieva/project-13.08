@@ -13,7 +13,10 @@ function Contact() {
 
                 <div className="col-md-4">
 
-                    <h3>Like me on Facebook</h3>
+                    <h3> <a href="https://www.facebook.com/eva.vronsk">
+                        Like me on Facebook
+                        </a>
+                        </h3>
                     <h3>Follow me on Twitter</h3>
                     <h3>Connect with me on LinkedIn</h3>
 
