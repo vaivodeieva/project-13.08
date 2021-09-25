@@ -1,3 +1,8 @@
 .contact-container {
     overflow-x: hidden;
 }
+
+.soc-links {
+    text-decoration: none;
+    color: cadetblue;
+}
