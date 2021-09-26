@@ -17,7 +17,10 @@ function Contact() {
                         Like me on Facebook
                         </a>
                         </h3>
-                    <h3>Follow me on Twitter</h3>
+                    <h3> <a href="https://twitter.com/MeiteneMaakslaa">
+                        Follow me on Twitter
+                        </a>
+                        </h3>
                     <h3>Connect with me on LinkedIn</h3>
 
                 </div>
