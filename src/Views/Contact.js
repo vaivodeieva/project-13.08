@@ -21,7 +21,10 @@ function Contact() {
                         Follow me on Twitter
                         </a>
                         </h3>
-                    <h3>Connect with me on LinkedIn</h3>
+                    <h3> <a href="https://www.linkedin.com/in/ieva-vaivode-a28063204/" className="soc-links">
+                        Connect with me on LinkedIn
+                        </a>
+                        </h3>
 
                 </div>
 
