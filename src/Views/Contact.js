@@ -1,6 +1,7 @@
 import '../Assets/Css/Contact.css';
 import logofb from '../Assets/Images/fb-link-logo.jpg';
 import logotw from '../Assets/Images/twitter-logo.png';
+import logolinkedin from '../Assets/Images/linkedin-logo.png';
 
 function Contact() {
     return (
