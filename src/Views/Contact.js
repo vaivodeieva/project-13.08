@@ -29,6 +29,8 @@ function Contact() {
                         </a>
                         </h3>
                     <h3> <a href="https://www.linkedin.com/in/ieva-vaivode-a28063204/" className="soc-links">
+                    <img src={logolinkedin} style={{height: '90px', width: '90px'}}/>
+
                         Connect with me on LinkedIn
                         </a>
                         </h3>
