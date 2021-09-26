@@ -8,5 +8,9 @@
 }
 
 .send-btn {
+    height: 90px;
+    width: 90px;
+    padding-top: 17px!important;
+    padding-bottom: 17px!important;
     border-radius: 50%!important;
 }
