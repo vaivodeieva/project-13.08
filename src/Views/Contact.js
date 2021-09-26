@@ -1,5 +1,6 @@
 import '../Assets/Css/Contact.css';
 import logofb from '../Assets/Images/fb-link-logo.jpg';
+import logotw from '../Assets/Images/twitter-logo.png';
 
 function Contact() {
     return (
@@ -22,6 +23,7 @@ function Contact() {
                         </a>
                         </h3>
                     <h3> <a href="https://twitter.com/MeiteneMaakslaa" className="soc-links">
+                    <img src={logotw} style={{height: '90px', width: '90px'}}/>
                         Follow me on Twitter
                         </a>
                         </h3>
