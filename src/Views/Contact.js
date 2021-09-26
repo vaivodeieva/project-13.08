@@ -11,7 +11,7 @@ function Contact() {
             </div>
             <div className="row">
 
-                <div className="col-md-4">
+                <div className="col-md-4 links-container">
 
                     <h3> <a href="https://www.facebook.com/eva.vronsk" className="soc-links">
                         Like me on Facebook
