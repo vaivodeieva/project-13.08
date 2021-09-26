@@ -1,4 +1,5 @@
 import '../Assets/Css/Contact.css';
+import logofb from '../Assets/Images/fb-link-logo.jpg';
 
 function Contact() {
     return (
@@ -13,7 +14,10 @@ function Contact() {
 
                 <div className="col-md-4 links-container">
 
-                    <h3> <a href="https://www.facebook.com/eva.vronsk" className="soc-links">
+                    <h3> 
+
+                        <a href="https://www.facebook.com/eva.vronsk" className="soc-links">
+                        <img src={logofb} style={{height: '90px', width: '90px'}}/>
                         Like me on Facebook
                         </a>
                         </h3>
