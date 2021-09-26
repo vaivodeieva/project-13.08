@@ -10,30 +10,30 @@ function Contact() {
                 <div className="col-12">
                     <h1 className="text-center">I'd love to hear from you</h1>
                 </div>
-
             </div>
+
             <div className="row">
 
                 <div className="col-md-4 links-container">
 
-                    <h3> 
+                    <h3>
 
                         <a href="https://www.facebook.com/eva.vronsk" className="soc-links">
-                        <img src={logofb} style={{height: '90px', width: '90px'}}/>
-                        Like me on Facebook
+                            <img src={logofb} style={{ height: '90px', width: '90px' }} />
+                            Like me on Facebook
                         </a>
-                        </h3>
+                    </h3>
                     <h3> <a href="https://twitter.com/MeiteneMaakslaa" className="soc-links">
-                    <img src={logotw} style={{height: '90px', width: '90px'}}/>
+                        <img src={logotw} style={{ height: '90px', width: '90px' }} />
                         Follow me on Twitter
-                        </a>
-                        </h3>
+                    </a>
+                    </h3>
                     <h3> <a href="https://www.linkedin.com/in/ieva-vaivode-a28063204/" className="soc-links">
-                    <img src={logolinkedin} style={{height: '90px', width: '90px'}}/>
+                        <img src={logolinkedin} style={{ height: '90px', width: '90px' }} />
 
                         Connect with me on LinkedIn
-                        </a>
-                        </h3>
+                    </a>
+                    </h3>
 
                 </div>
 
