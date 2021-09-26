@@ -44,7 +44,7 @@ function Contact() {
                             <input type="checkbox" className="form-check-input" id="exampleCheck1" />
                             <label className="form-check-label" for="exampleCheck1">Check me out</label>
                         </div>
-                        <button type="submit" className="btn btn-primary">Send</button>
+                        <button type="submit" className="btn btn-primary send-btn">Send</button>
                     </form>
 
 
