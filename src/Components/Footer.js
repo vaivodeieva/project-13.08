@@ -31,20 +31,20 @@ function Footer() {
                                 <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
                             </div>
                             <div className="col item social">
-                                <a href="#">
+                                <a href="https://www.facebook.com/eva.vronsk">
                                     <i className="icon ion-social-facebook"></i>
                                 </a>
-                                <a href="#">
+                                <a href="https://twitter.com/MeiteneMaakslaa">
                                     <i className="icon ion-social-twitter">
                                     </i>
                                 </a>
-                                <a href="#">
+                                <a href="https://www.linkedin.com/in/ieva-vaivode-a28063204/">
                                     <i className="icon ion-social-linkedin">
                                     </i>
                                 </a>
                             </div>
                         </div>
-                        <p className="copyright">Company Name © 2018</p>
+                        <p className="copyright">WEB DEVELOPMENT © 2021</p>
                     </div>
                 </footer>
             </div>
