@@ -1,9 +1,10 @@
-.hobbies-container {
-    background-image: url('https://i.picsum.photos/id/131/4698/3166.jpg?hmac=DpRHYso0tlQQ8HzsmRHNTSWfbMaTdHq58UciPSggCY8');
-}
-
-.art {
+.art, .poems, .riddles, .photos {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+}
+
+.hobbies-container {
+    display: flex;
+    justify-content: center;
 }
