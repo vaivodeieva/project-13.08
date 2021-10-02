@@ -4,16 +4,16 @@ function Hobbies() {
 
     return (
         <div className="hobbies-container">
-            <button>
+            <button className="art">
                 Art
             </button>
-            <button>
+            <button className="poems">
                 Poems
             </button>
-            <button>
+            <button className="riddles">
                 Riddles
             </button>
-            <button>
+            <button className="photos">
                 Photos
             </button>
 
