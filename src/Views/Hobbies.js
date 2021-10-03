@@ -3,7 +3,7 @@ import '../Assets/Css/Hobbies.css';
 function Hobbies() {
 
     return (
-        <div className="hobbies-container">
+        <div className="hobbies-container flex d-flex bg-dark">
             <button className="art">
                 Art
             </button>

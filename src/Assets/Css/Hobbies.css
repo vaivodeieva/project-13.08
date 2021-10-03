@@ -6,12 +6,14 @@
 }
 
 .hobbies-container {
+    height: 300px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .art:hover, .poems:hover, .riddles:hover, .photos:hover {
     transition: width 1s, height 1s;  
-    height: 250px;
-    width: 250px;
+    height: 220px;
+    width: 220px;
 }
