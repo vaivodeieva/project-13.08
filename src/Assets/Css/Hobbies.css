@@ -1,10 +1,17 @@
 .art, .poems, .riddles, .photos {
-    height: 200px;
-    width: 200px;
+    transition: width 1s, height 1s;  
+    height: 180px;
+    width: 180px;
     border-radius: 50%;
 }
 
 .hobbies-container {
     display: flex;
     justify-content: center;
+}
+
+.art:hover, .poems:hover, .riddles:hover, .photos:hover {
+    transition: width 1s, height 1s;  
+    height: 250px;
+    width: 250px;
 }
