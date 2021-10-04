@@ -3,9 +3,12 @@ import '../Assets/Css/Hobbies.css';
 function Hobbies() {
 
     return (
-        <div className="hobbies-container flex d-flex bg-dark">
+        <div className="hobbies-container bg-dark">
             <button className="art">
                 Art
+            </button>
+            <button className="photos">
+                Photos
             </button>
             <button className="poems">
                 Poems
@@ -13,9 +16,7 @@ function Hobbies() {
             <button className="riddles">
                 Riddles
             </button>
-            <button className="photos">
-                Photos
-            </button>
+            
 
         </div>
     )
