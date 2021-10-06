@@ -6,10 +6,11 @@
 }
 
 .hobbies-container {
-    height: 300px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items:flex-start;
+    margin-top: 20px;
 }
 
 .art:hover, .poems:hover, .riddles:hover, .photos:hover {
