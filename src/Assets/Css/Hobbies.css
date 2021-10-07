@@ -24,4 +24,9 @@
     border: none;
 }
 
+.art {
+    background-image: url('../Images/art-bg.png');
+    border: none;
+}
+
 
