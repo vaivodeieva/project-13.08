@@ -29,4 +29,9 @@
     border: none;
 }
 
+.photos {
+    background-image: url('../Images/photos-bg.jpg');
+    border: none;
+}
+
 
