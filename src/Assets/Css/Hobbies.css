@@ -10,8 +10,9 @@
     display: flex;
     justify-content: center;
     align-items:flex-start;
-    background-image: url('../Images/upe.png');
+    background-image: url('../Images/hobbies-container-bg.png');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .art:hover, .poems:hover, .riddles:hover, .photos:hover {
