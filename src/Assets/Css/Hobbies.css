@@ -47,4 +47,7 @@
 }
 
 
-
+.hobbies-pages:hover {
+    color: white;
+    font-size: 27px;
+}
