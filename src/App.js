@@ -6,6 +6,7 @@ import Footer from './Components/Footer';
 import Hobbies from './Views/Hobbies';
 import Contact from './Views/Contact';
 import Page404 from './Views/Page404';
+import Art from './Views/Art';
 
 function App() {
 
@@ -25,6 +26,10 @@ function App() {
 
                     <Route path="/contact">
                         <Contact />
+                    </Route>
+
+                    <Route path="/art">
+                        <Art /> 
                     </Route>
 
                     <Route>
