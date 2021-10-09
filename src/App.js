@@ -7,6 +7,7 @@ import Hobbies from './Views/Hobbies';
 import Contact from './Views/Contact';
 import Page404 from './Views/Page404';
 import Art from './Views/Art';
+import Photos from './Views/Photos';
 
 function App() {
 
@@ -30,6 +31,10 @@ function App() {
 
                     <Route path="/art">
                         <Art /> 
+                    </Route>
+
+                    <Route path="/photos">
+                        <Photos /> 
                     </Route>
 
                     <Route>
