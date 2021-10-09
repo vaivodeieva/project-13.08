@@ -4,7 +4,7 @@ function Hobbies() {
 
     return (
         <div className="hobbies-container">
-            <button className="art"> <a href="/art">
+            <button className="art"> <a href="/art" className="hobbies-pages">
                 Art</a>
             </button>
             <button className="photos">
