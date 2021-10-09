@@ -7,7 +7,7 @@ function Hobbies() {
             <button className="art"> <a href="/art" className="hobbies-pages">
                 Art</a>
             </button>
-            <button className="photos"> <a href="hobbies-pages">
+            <button className="photos"> <a href="/photos" className="hobbies-pages">
                 Photos</a>
             </button>
             <button className="poems">
