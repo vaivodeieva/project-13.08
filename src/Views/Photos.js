@@ -2,7 +2,8 @@ import '../Assets/Css/Photos.css';
 import lightGallery from 'lightgallery';
 
 import lgThumbnail from 'lightgallery/plugins/thumbnail'
-import lgZoom from 'lightgallery/plugins/zoom'
+import lgZoom from 'lightgallery/plugins/zoom';
+import photo1 from '../Assets/Images/photos-bg.jpg';
 
 function Photos() {
 
@@ -16,11 +17,11 @@ function Photos() {
     return (
         <div className="photos-container">
             <div id="lightgallery">
-                <a href="img/img1.jpg" data-lg-size="1600-2400">
-                    <img alt=".." src="img/thumb1.jpg" />
+                <a href={photo1} data-lg-size="1600200-2400">
+                    <img alt=".." src={photo1} />
                 </a>
-                <a href="img/img2.jpg" data-lg-size="1024-800">
-                    <img alt=".." src="img/thumb2.jpg" />
+                <a href={photo1} data-lg-size="1024-800">
+                    <img alt=".." src={photo1} />
                 </a>
                
             </div>
