@@ -1,6 +1,7 @@
 function Art() {
 
     return (
+        
         <div>
 
         </div>
