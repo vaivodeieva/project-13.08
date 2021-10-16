@@ -1,0 +1,165 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* general styles */
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* gallery image */
+.gallery {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
+  grid-template-rows: repeat(5, 1fr);
+  gap: 2px;
+}
+
+.one {
+  grid-column: 1 / 3;
+}
+
+.two {
+  grid-column: 3 / 4;
+}
+
+.three {
+  grid-column: 1 / 2;
+}
+
+.four {
+  grid-column: 2 / 4;
+}
+
+.five {
+  grid-column: 1 / 4;
+}
+
+.six {
+  grid-column: 1 / 2;
+}
+
+.seven {
+  grid-column: 2 / 4;
+}
+
+.eight {
+  grid-column: 1 / 3;
+}
+
+.nine {
+  grid-column: 3 / 4;
+}
+
+.gallery__images-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1; /* satacking context */
+  transition: background-color 0.5s;
+}
+
+.overlay:hover {
+  background-color: transparent;
+}
+
+.gallery__images-small {
+  transform: scale(1);
+  transition: transform 0.4s;
+}
+
+.overlay:hover + .gallery__images-small {
+  transform: scale(1.3);
+}
+
+/* style lightbox */
+.gallery__lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s;
+}
+
+.gallery__lightbox-content {
+  width: 80%;
+  height: 250px;
+  position: relative;
+}
+
+.close,
+.back,
+.next {
+  position: absolute;
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.close {
+  top: -20px;
+  right: 0;
+  background-color: #bd1e1e;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+}
+
+.back,
+.next {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: #bdbec9a3;
+  color: #000;
+}
+
+.back {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.gallery__lightbox-image {
+  box-shadow: 1px 1px 5px 1px #320917, -1px -1px 5px 1px #320917;
+  border-radius: 4px;
+}
+
+.gallery__lightbox:target {
+  opacity: 1;
+  pointer-events: auto;
+}
