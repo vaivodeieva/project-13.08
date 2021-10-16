@@ -11,14 +11,14 @@ function Photos() {
 <div class="gallery__images-item one">
   <a href="#1" class="gallery__images-link">
     <span class="overlay"></span>
-    <img src="https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68" class="gallery__images-small" />
+    <img src="https://uupload.ir/files/yj1a_photo-1517394834181-95ed159986c7.jpeg" class="gallery__images-small" />
   </a>
 </div>
 
 <div class="gallery__images-item two">
-  <a href="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I" class="gallery__images-link">
+  <a href="#2" class="gallery__images-link">
     <span class="overlay"></span>
-    <img src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I" class="gallery__images-small" />
+    <img src="https://uupload.ir/files/lei_photo-1520986606214-8b456906c813.jpeg" class="gallery__images-small" />
   </a>
 </div>
 
