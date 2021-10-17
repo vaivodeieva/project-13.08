@@ -21,7 +21,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, minmax(50px, 1fr));
   grid-template-rows: repeat(5, 1fr);
-  gap: 2px;
+  gap: 1px;
 }
 
 .one {
