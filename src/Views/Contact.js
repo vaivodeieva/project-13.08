@@ -16,24 +16,24 @@ function Contact() {
 
                 <div className="col-md-4 links-container mx-auto">
 
-                    <h3>
+                    
 
                         <a href="https://www.facebook.com/eva.vronsk" className="soc-links">
-                            <img src={logofb} style={{ height: '90px', width: '90px' }} />
-                            Like me on Facebook
+                            <img src={logofb} style={{ height: '60px', width: '60px' }} />
+                            <span>Like me on Facebook </span>
                         </a>
-                    </h3>
-                    <h3> <a href="https://twitter.com/MeiteneMaakslaa" className="soc-links">
-                        <img src={logotw} style={{ height: '90px', width: '90px' }} />
+                   
+                     <a href="https://twitter.com/MeiteneMaakslaa" className="soc-links">
+                        <img src={logotw} style={{ height: '70px', width: '70px' }} />
                         Follow me on Twitter
                     </a>
-                    </h3>
-                    <h3> <a href="https://www.linkedin.com/in/ieva-vaivode-a28063204/" className="soc-links">
-                        <img src={logolinkedin} style={{ height: '90px', width: '90px' }} />
+                    
+                     <a href="https://www.linkedin.com/in/ieva-vaivode-a28063204/" className="soc-links">
+                        <img src={logolinkedin} style={{ height: '60px', width: '60px' }} />
 
                         Connect with me on LinkedIn
                     </a>
-                    </h3>
+                  
 
                 </div>
 
