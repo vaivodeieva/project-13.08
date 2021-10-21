@@ -14,58 +14,13 @@ function Contact() {
 
             <div className="row">
 
-                <div className="col-lg-6 col-md-6 mx-auto soc-container">
+                <div className="col-lg-6 col-md-4 col-sm-3 mx-auto soc-container">
 
-                    <div className="container">
-                        <header>
-                            <h1>Follow Me On Social Media</h1>
-                        </header>
-                        <ul className="accordion">
-
-                            <li className="tab">
-                                <div className="social instagram">
-                                    <a href="#" target="_blank">Instagram</a>
-                                </div>
-                                <div className="content">
-                                    <h1>Instagram</h1>
-                                    <p>Follow me on Instagram</p>
-                                </div>
-                            </li>
-                            <li className="tab">
-                                <div className="social linkedin">
-                                    <a href="#" target="_blank">LinkedIn</a>
-                                </div>
-                                <div className="content">
-                                    <h1>LinkedIn</h1>
-                                    <p>Follow me on Linkedin</p>
-                                </div>
-                            </li>
-                            <li className="tab">
-                                <div className="social facebook">
-                                    <a href="#x" target="_blank">Facebook</a>
-                                </div>
-                                <div className="content">
-                                    <h1>Facebook</h1>
-                                    <p>Follow me on Facebook</p>
-                                </div>
-                            </li>
-                            <li className="tab">
-                                <div className="social codepen">
-                                    <a href="#" target="_blank">Codepen</a>
-                                </div>
-                                <div className="content">
-                                    <h1>Codepen</h1>
-                                    <p>Follow me on Codepen</p>
-                                </div>
-                            </li>
-
-                        </ul>
-                    </div>
-
+                   
 
                 </div>
 
-                <div className="col-lg-6 col-md-6 mx-auto">
+                <div className="col-lg-6 col-md-8 col-sm-9 mx-auto">
 
                     <form>
                         <div className="mb-3">
