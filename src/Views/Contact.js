@@ -16,22 +16,7 @@ function Contact() {
 
                 <div className="col-md-4 links-container mx-auto">
                     
-                    
-                        <a href="https://www.facebook.com/eva.vronsk" className="soc-links">
-                            <img src={logofb} style={{ height: '60px', width: '60px'}} />
-                           Like me on Facebook 
-                        </a>
-                   
-                     <a href="https://twitter.com/MeiteneMaakslaa" className="soc-links">
-                        <img src={logotw} style={{ height: '60px', width: '60px' }} />
-                        Follow me on Twitter
-                    </a>
-                    
-                     <a href="https://www.linkedin.com/in/ieva-vaivode-a28063204/" className="soc-links">
-                        <img src={logolinkedin} style={{ height: '60px', width: '60px' }} />
 
-                        Connect with me on LinkedIn
-                    </a>
                   
 
                 </div>
