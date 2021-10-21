@@ -23,7 +23,7 @@ function Contact() {
                         </a>
                    
                      <a href="https://twitter.com/MeiteneMaakslaa" className="soc-links">
-                        <img src={logotw} style={{ height: '70px', width: '70px' }} />
+                        <img src={logotw} style={{ height: '60px', width: '60px' }} />
                         Follow me on Twitter
                     </a>
                     
