@@ -25,3 +25,14 @@
 .hear-from {
     margin-top: 20px;
 }
+
+.links-container a{
+    display: flex;
+    justify-content:flex-start;
+    vertical-align:auto;
+    }
+
+
+    img{
+    vertical-align:top;
+    }

@@ -15,12 +15,11 @@ function Contact() {
             <div className="row">
 
                 <div className="col-md-4 links-container mx-auto">
-
                     
-
+                    
                         <a href="https://www.facebook.com/eva.vronsk" className="soc-links">
-                            <img src={logofb} style={{ height: '60px', width: '60px' }} />
-                            <span>Like me on Facebook </span>
+                            <img src={logofb} style={{ height: '60px', width: '60px', align: 'left' }} />
+                           Like me on Facebook 
                         </a>
                    
                      <a href="https://twitter.com/MeiteneMaakslaa" className="soc-links">
