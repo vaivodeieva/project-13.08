@@ -18,7 +18,7 @@ function Contact() {
                     
                     
                         <a href="https://www.facebook.com/eva.vronsk" className="soc-links">
-                            <img src={logofb} style={{ height: '60px', width: '60px', align: 'left' }} />
+                            <img src={logofb} style={{ height: '60px', width: '60px'}} />
                            Like me on Facebook 
                         </a>
                    
