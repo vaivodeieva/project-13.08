@@ -40,6 +40,8 @@
 
 .contact-container {
     background-color: aliceblue;
+    min-height: 600px;
+    overflow-x: hidden;
 }
 
 @import '//codepen.io/chrisdothtml/pen/ojLzJK.css';
