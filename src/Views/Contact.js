@@ -1,7 +1,7 @@
 import '../Assets/Css/Contact.css';
-import logofb from '../Assets/Images/fb-link-logo.jpg';
-import logotw from '../Assets/Images/twitter-logo.png';
-import logolinkedin from '../Assets/Images/linkedin-logo.png';
+// import logofb from '../Assets/Images/fb-link-logo.jpg';
+// import logotw from '../Assets/Images/twitter-logo.png';
+// import logolinkedin from '../Assets/Images/linkedin-logo.png';
 
 function Contact() {
     return (
@@ -14,9 +14,11 @@ function Contact() {
 
             <div className="row">
 
-                <div className="col-lg-6 col-md-4 col-sm-3 mx-auto soc-container">
+                <div className="col-lg-6 col-md-4 col-sm-3 mx-auto">
 
-                   
+                    <div class="social-btns"><a class="btn facebook" href="#"><i class="fa fa-facebook"></i></a><a class="btn twitter" href="#"><i class="fa fa-twitter"></i></a><a class="btn google" href="#"><i class="fa fa-google"></i></a><a class="btn dribbble" href="#"><i class="fa fa-dribbble"></i></a><a class="btn skype" href="#"><i class="fa fa-skype"></i></a>
+                    </div>
+
 
                 </div>
 
