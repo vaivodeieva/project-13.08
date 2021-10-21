@@ -14,7 +14,7 @@ function Contact() {
 
             <div className="row">
 
-                <div className="col-md-4 col-lg-6 links-container mx-auto">
+                <div className="col-lg-4 col-md-6 mx-auto">
 
                     <div className="container">
                         <header>
