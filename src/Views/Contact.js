@@ -14,7 +14,7 @@ function Contact() {
 
             <div className="row">
 
-                <div className="col-lg-4 col-md-6 mx-auto">
+                <div className="col-lg-6 col-md-6 mx-auto soc-container">
 
                     <div className="container">
                         <header>
@@ -65,7 +65,7 @@ function Contact() {
 
                 </div>
 
-                <div className="col-md-8 col-lg-6 mx-auto">
+                <div className="col-lg-6 col-md-6 mx-auto">
 
                     <form>
                         <div className="mb-3">
