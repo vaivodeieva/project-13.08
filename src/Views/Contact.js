@@ -14,9 +14,53 @@ function Contact() {
 
             <div className="row">
 
-                <div className="col-md-4 links-container mx-auto">
+                <div className="col-md-4 col-lg-6 links-container mx-auto">
                     
-
+                <div class="container">
+  <header>
+    <h1>Follow Me On Social Media</h1>
+  </header>
+  <ul class="accordion">
+    
+    <li class="tab">
+      <div class="social instagram">
+        <a href="#" target="_blank">Instagram</a>
+      </div>
+      <div class="content">
+        <h1>Instagram</h1>
+        <p>Follow me on Instagram</p>
+      </div>
+    </li>
+    <li class="tab">
+      <div class="social linkedin">
+        <a href="#" target="_blank">LinkedIn</a>
+      </div>
+      <div class="content">
+        <h1>LinkedIn</h1>
+        <p>Follow me on Linkedin</p>
+      </div>
+    </li>
+    <li class="tab">
+      <div class="social facebook">
+        <a href="#x" target="_blank">Facebook</a>
+      </div>
+      <div class="content">
+        <h1>Facebook</h1>
+        <p>Follow me on Facebook</p>
+      </div>
+    </li>
+    <li class="tab">
+      <div class="social codepen">
+        <a href="#" target="_blank">Codepen</a>
+      </div>
+      <div class="content">
+        <h1>Codepen</h1>
+        <p>Follow me on Codepen</p>
+      </div>
+    </li>
+     
+  </ul>
+</div>
                   
 
                 </div>
