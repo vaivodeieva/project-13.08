@@ -6,24 +6,30 @@ import '../Assets/Css/Contact.css';
 function Contact() {
     return (
         <div className="contact-container">
+
             <div className="row">
                 <div className="col-12">
                     <h1 className="text-center hear-from">I'd love to hear from you</h1>
                 </div>
             </div>
 
+
             <div className="row">
 
-                <div className="col-lg-6 col-md-4 col-sm-3 mx-auto">
-
-                    <div class="social-btns"><a class="btn facebook" href="#"><i class="fa fa-facebook"></i></a><a class="btn twitter" href="#"><i class="fa fa-twitter"></i></a><a class="btn google" href="#"><i class="fa fa-google"></i></a><a class="btn dribbble" href="#"><i class="fa fa-dribbble"></i></a><a class="btn skype" href="#"><i class="fa fa-skype"></i></a>
+                <div className="col-12 mx-auto soc-container">
+                    <div class="social-btns">
+                        <a class="btn facebook" href="#"><i class="fa fa-facebook"></i></a>
+                        <a class="btn twitter" href="#"><i class="fa fa-twitter"></i></a>
+                        <a class="btn google" href="#"><i class="fa fa-google"></i></a>
+                        <a class="btn dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+                        <a class="btn skype" href="#"><i class="fa fa-skype"></i></a>
                     </div>
-
-
                 </div>
 
-                <div className="col-lg-6 col-md-8 col-sm-9 mx-auto">
 
+
+
+                <div className="col-lg-6 col-md-8 col-sm-9 mx-auto">
                     <form>
                         <div className="mb-3">
                             <label for="exampleName" className="form-label">Your name</label>
